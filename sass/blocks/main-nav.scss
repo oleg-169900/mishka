@@ -1,0 +1,28 @@
+.main-nav {
+  position: absolute;
+  z-index: 100;
+
+  width: 100%;
+  padding-top: 20px;
+
+  text-align: center;
+  font-weight: bold;
+  font-size: $font-size-2;
+  line-height: 24px;
+
+  background-color: #ffffff;
+}
+
+.main-nav__item {
+  padding: 20px 0;
+  border-top: 1px solid $border-color;
+}
+
+.main-nav__item:last-child {
+  border-bottom: 1px solid $border-color;
+}
+
+.main-nav--nojs {
+  position: static;
+  display: block;
+}

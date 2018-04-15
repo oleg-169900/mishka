@@ -1,0 +1,49 @@
+body {
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+
+  background: transparent;
+
+  border: none;
+
+  cursor: pointer;
+}
+
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+select {
+  border: none;
+  outline: none;
+}
+
+.hidden {
+  display: none;
+}

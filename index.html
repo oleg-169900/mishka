@@ -18,7 +18,7 @@
             </picture>
           </a>
         </div>
-        <nav class="main-nav">
+        <nav class="main-nav  main-nav--nojs  hidden">
           <ul class="main-nav__list">
             <li class="main-nav__item  main-nav__item--active">
               <a class="main-nav__link" href="photo.html">Каталог товаров</a>
@@ -42,8 +42,12 @@
       <main>
         <div class="page-heading  page-heading--main">
           <h1 class="page-heading__title">Милые штуки ручной работы для дома</h1>
-          <a class="page-heading__link" href="#">Предметы интерьера</a>
-          <a class="page-heading__link" href="#">Детские игрушки</a>
+          <a class="page-heading__link  page-heading__link--interior" href="#">
+            <span class=page-heading__text>Предметы интерьера</span>
+          </a>
+          <a class="page-heading__link  page-heading__link--toys" href="#">
+            <span class=page-heading__text>Детские игрушки</span>
+          </a>
         </div>
 
         <section class="goods">
@@ -201,5 +205,6 @@
         <input class="modal__btn  btn" type="submit" name="add" value="Добавить">
       </form>
     </div>
+    <script src="js/menu-toggle.js"></script>
   </body>
 </html>

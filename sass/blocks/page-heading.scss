@@ -1,0 +1,54 @@
+.page-heading {
+  background-color: $bg-color-2;
+}
+
+.page-heading--main {
+  background-image: url("../img/bg-top--mobile.jpg");
+  background-repeat: no-repeat;
+
+  .page-heading__title {
+    padding-top: 70px;
+    padding-bottom: 140px;
+  }
+}
+
+.page-heading__title {
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: $font-size-4;
+}
+
+.page-heading__link {
+  display: block;
+  width: 100%;
+  padding: 20px 0;
+
+  font-size: $font-size-3;
+  color: $text-color-2;
+  font-weight: bold;
+
+  background-color: #63d1bb;
+  background-repeat: no-repeat;
+}
+
+.page-heading__link:nth-child(2n+1) {
+  background-color: #56c3b2;
+}
+
+.page-heading__link--interior {
+  background-image: url("../img/interior.png");
+  background-position: 87% center;
+}
+
+.page-heading__link--toys {
+  background-image: url("../img/toy.png");
+  background-position: 90% center;
+}
+
+.page-heading__text {
+  display: inline-block;
+  vertical-align: middle;
+  width: 40%;
+  margin-left: 10%;
+}
