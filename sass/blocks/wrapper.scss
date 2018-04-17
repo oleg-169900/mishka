@@ -1,5 +1,8 @@
 .wrapper {
   position: relative;
+  max-width: 425px;
+  margin: 0 auto;
+
   font-family: $font-1;
   background-color: #ffffff;
 }

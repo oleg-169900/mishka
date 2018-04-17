@@ -1,0 +1,27 @@
+.btn {
+  display: block;
+  width: 255px;
+  margin: 0 auto;
+  padding: 10px 0;
+
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: bold;
+  color: $text-color-3;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+
+  border: 2px solid $border-color--btn;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background-color: $text-color-3;
+}
+
+.btn:active {
+  color: #ffffff;
+  background-color: $text-color-3;
+  filter: brightness(70%);
+}

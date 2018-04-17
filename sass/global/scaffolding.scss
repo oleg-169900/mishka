@@ -1,5 +1,6 @@
 body {
   margin: 0 auto;
+  background-color: #f2f2f2;
 }
 
 h1,
@@ -28,6 +29,7 @@ button {
   background: transparent;
 
   border: none;
+  outline: none;
 
   cursor: pointer;
 }
@@ -42,6 +44,10 @@ textarea {
 select {
   border: none;
   outline: none;
+}
+
+table {
+  border-collapse: collapse;
 }
 
 .hidden {

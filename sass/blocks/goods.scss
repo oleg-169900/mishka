@@ -1,0 +1,58 @@
+.goods {
+  @include padding;
+  padding-top: 20px;
+}
+
+.goods__title {
+  margin-bottom: 5px;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.goods__subtitle {
+  margin-bottom: 30px;
+
+  color: $text-color-4;
+  font-size: 17px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.goods__text {
+  font-size: 15px;
+  line-height: 24px;
+  color: $text-color-3;
+}
+
+.goods__text--bold {
+  margin-bottom: 20px;
+
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.goods__table {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.goods__row {
+  border-bottom: 1px solid $border-color;
+}
+
+.goods__value,
+.gods__field {
+  padding: 5px 0;
+}
+
+.goods__img {
+  display: block;
+  width: 260px;
+  min-height: 315px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+  background-color: #f1f1f1;
+}
