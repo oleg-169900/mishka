@@ -1,0 +1,43 @@
+.reviews {
+  color: $text-color-3;
+  overflow-x: hidden;
+}
+
+.reviews__inner {
+  overflow-x: hidden;
+}
+
+.reviews__inner--nojs {
+  overflow-x: scroll;
+}
+
+.reviews__title {
+  @include padding;
+  margin-top: 5px;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.reviews__list {
+  display: flex;
+  width: 300%;
+  transition-duration: 1s;
+}
+
+.reviews__controls {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  @include padding;
+}
+
+.reviews__arrow {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px 37px;
+  border: 1px solid $border-color;
+}
+
+.reviews__arrow:first-child {
+  border-right: none;
+}

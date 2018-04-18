@@ -105,26 +105,40 @@
 
         <section class="reviews">
           <h2 class="reviews__title">Отзывы</h2>
-          <div class="reviews__inner  slider">
+          <div class="reviews__inner  reviews__inner--nojs">
             <ul class="reviews__list">
               <li class="review">
                 <p class="review__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</p>
                 <div class="review__contact">
-                  <span class="review__name">Анастасия Красильникова</span>
+                  <div class="review__name">Анастасия Красильникова</div>
+                  <a class="review__link" href="#">@misssssiskras</a>
+                </div>
+              </li>
+              <li class="review">
+                <p class="review__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</p>
+                <div class="review__contact">
+                  <div class="review__name">Анастасия Красильникова</div>
+                  <a class="review__link" href="#">@misssssiskras</a>
+                </div>
+              </li>
+              <li class="review">
+                <p class="review__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</p>
+                <div class="review__contact">
+                  <div class="review__name">Анастасия Красильникова</div>
                   <a class="review__link" href="#">@misssssiskras</a>
                 </div>
               </li>
             </ul>
-            <div class="reviews__controls">
-              <div class="reviews__arrow  reviews__arrow--left">
-                <span class="hidden">Влево</span>
-              </div>
-              <div class="reviews__arrow  reviews__arrow--right">
-                <span class="hidden">Вправо</span>
-              </div>
-            </div>
-            <button class="rewiews__btn  btn" type="button" name="write-review">Написать</button>
           </div>
+          <div class="reviews__controls">
+            <button class="reviews__arrow" id="arrow-left" type="button" name="arrow-left">
+              <img src="img/arrow-left.png" alt="Влево">
+            </button>
+            <button class="reviews__arrow" id="arrow-right" type="button" name="arrow-right">
+              <img src="img/arrow-right.png" alt="Вправо">
+            </button>
+          </div>
+          <button class="rewiews__btn  btn" type="button" name="write-review">Написать</button>
         </section>
 
         <section class="contacts">
@@ -208,5 +222,6 @@
       </form>
     </div>
     <script src="js/menu-toggle.js"></script>
+    <script src="js/slider.js"></script>
   </body>
 </html>

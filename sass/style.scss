@@ -1,6 +1,7 @@
-@import "variables.scss";
+@import "global/variables.scss";
 @import "global/fonts.scss";
 @import "global/scaffolding.scss";
+@import "global/mixins.scss";
 
 @import "blocks/wrapper.scss";
 @import "blocks/btn.scss";
@@ -10,3 +11,6 @@
 @import "blocks/menu-toggle.scss";
 @import "blocks/page-heading.scss";
 @import "blocks/goods.scss";
+@import "blocks/about.scss";
+@import "blocks/reviews.scss";
+@import "blocks/review.scss";

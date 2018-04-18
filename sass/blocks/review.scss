@@ -1,0 +1,22 @@
+.review {
+  margin-top: 25px;
+}
+
+.review__text {
+  @include padding;
+  margin-bottom: 25px;
+
+  font-size: $font-size-1;
+  line-height: 30px;
+  color: $text-color-3;
+}
+
+.review__contact {
+  @include padding;
+}
+
+.review__name {
+  margin-bottom: 10px;
+  font-size: $font-size-2;
+  font-weight: bold;
+}

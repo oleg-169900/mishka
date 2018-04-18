@@ -4,7 +4,8 @@ $font-2: "Open Sans Bold", arial, sans-serif;
 $font-size-1: 15px;
 $font-size-2: 17px;
 $font-size-3: 19px;
-$font-size-4: 27px;
+$font-size-4: 25px;
+$font-size-5: 27px;
 
 $text-color-1: #010000;
 $text-color-2: #ffffff;
@@ -16,8 +17,3 @@ $bg-color-2: #f1f1f1;
 
 $border-color: #ececec;
 $border-color--btn: #444444;
-
-@mixin padding {
-  padding-left: 9%;
-  padding-right: 9%;
-}

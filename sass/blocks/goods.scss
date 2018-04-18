@@ -1,33 +1,38 @@
 .goods {
   @include padding;
-  padding-top: 20px;
+  padding-top: 25px;
+  padding-bottom: 40px;
+
+  background: url("../img/zigzag-line.svg") bottom repeat-x;
+  background-size: auto 4px;
 }
 
 .goods__title {
   margin-bottom: 5px;
-  font-size: 25px;
+  font-size: $font-size-4;
   line-height: 30px;
 }
 
 .goods__subtitle {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 
   color: $text-color-4;
-  font-size: 17px;
+  font-size: $font-size-2;
   line-height: 20px;
   text-transform: uppercase;
 }
 
 .goods__text {
-  font-size: 15px;
+  font-size: $font-size-1;
   line-height: 24px;
   color: $text-color-3;
 }
 
 .goods__text--bold {
-  margin-bottom: 20px;
+  margin-top: 27px;
+  margin-bottom: 25px;
 
-  font-size: 17px;
+  font-size: $font-size-2;
   line-height: 24px;
   font-weight: bold;
   text-align: center;
@@ -44,7 +49,7 @@
 
 .goods__value,
 .gods__field {
-  padding: 5px 0;
+  padding: 7px 0;
 }
 
 .goods__img {
