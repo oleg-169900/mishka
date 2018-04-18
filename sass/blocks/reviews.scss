@@ -1,4 +1,9 @@
 .reviews {
+  padding-bottom: 50px;
+
+  background: url("../img/zigzag-line.svg") bottom repeat-x;
+  background-size: auto 5px;
+
   color: $text-color-3;
   overflow-x: hidden;
 }
