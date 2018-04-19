@@ -120,15 +120,16 @@
               <source media="(min-width: 1200px)" srcset="img/first-frame--desktop.jpg">
               <source media="(min-width: 768px)" srcset="img/first-frame--tablet.jpg">
               <source media="(min-width: 320px)" srcset="img/first-frame--mobile.jpg">
-              <img src="img/first-frame--desktop.jpg" alt="Первый кадр">
+              <img class="video-field__frame" src="img/first-frame--desktop.jpg" alt="Первый кадр">
             </picture>
-            <button class="video-field__btn" type="button" name="play">
+            <button class="video-field__btn  video-field__btn--play" type="button" name="play">
               <span class="hidden">Воспроизвести видео</span>
             </button>
           </div>
           <div class="video-field__description">
             <p class="video-field__text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
-            <button class="video-field__btn  btn" type="button" name="order">Сделать заказ</button>
+            <button class="video-field__btn  btn  hidden" id="order" type="button" name="order">Сделать заказ</button>
+            <a class="video-field__btn  btn" id="alt-link" href="#">Сделать заказ</a>
           </div>
         </section>
       </main>
@@ -165,10 +166,9 @@
           </a>
         </div>
       </footer>
-
-      <form class="modal" action="#" method="post">
+      <form class="modal  hidden" action="#" method="post">
         <h2 class="modal__title">Добавить в корзину</h2>
-        <span class="modal__text">Выберите размер:</span>
+        <div class="modal__text">Выберите размер:</div>
         <div class="modal__radio-buttons">
           <label class="modal__radio-button">
             <input class="modal__input" type="radio" name="size" checked>
@@ -185,7 +185,9 @@
         </div>
         <input class="modal__btn  btn" type="submit" name="add" value="Добавить">
       </form>
+      <div class="filter  hidden"></div>
     </div>
     <script src="js/menu-toggle.js"></script>
+    <script src="js/modal.js"></script>
   </body>
 </html>
