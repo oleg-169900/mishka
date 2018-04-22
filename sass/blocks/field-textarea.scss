@@ -1,0 +1,16 @@
+.field-textarea {
+  margin-bottom: 15px;
+}
+
+.field-textarea__text {
+  width: 82%;
+  margin-top: 20px;
+  padding-top: 20px;
+  @include padding;
+
+  font-family: inherit;
+  font-size: 17px;
+  color: #d2d2d2;
+
+  border: 2px solid $text-color-3;
+}
