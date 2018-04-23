@@ -50,3 +50,21 @@
 .about__item--gift.about__item::before {
   background-position: left -265px;
 }
+
+@media (min-width: $tablet-width) {
+  .about__title {
+    margin-bottom: 30px;
+    font-size: $font-size-6;
+  }
+
+  .about__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .about__item {
+    width: 40%;
+  }
+}

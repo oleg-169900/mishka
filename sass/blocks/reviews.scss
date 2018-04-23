@@ -46,3 +46,38 @@
 .reviews__arrow:first-child {
   border-right: none;
 }
+
+@media (min-width: $tablet-width) {
+  .reviews {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 70px;
+
+    background: url("../img/review.jpg") no-repeat top left;
+  }
+
+  .reviews__title {
+    margin-bottom: 30px;
+    font-size: $font-size-6;
+  }
+
+  .reviews__controls {
+    position: absolute;
+    right: 7%;
+    bottom: 30px;
+    padding: 0;
+  }
+
+  .reviews__arrow {
+    border: none;
+    padding: 10px;
+  }
+
+  .reviews__btn {
+    position: absolute;
+    top: 33px;
+    right: 7%;
+
+    width: 170px;
+  }
+}

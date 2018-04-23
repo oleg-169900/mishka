@@ -9,3 +9,14 @@
   width: 50%;
   margin: 0 auto;
 }
+
+@media (min-width: $tablet-width) {
+  .social {
+    width: 145px;
+    border: none;
+  }
+
+  .social__list {
+    width: auto;
+  }
+}

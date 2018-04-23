@@ -57,3 +57,46 @@
   max-width: 130px;
   margin-left: 10%;
 }
+
+@media (min-width: $tablet-width) {
+  .page-heading--main {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-image: url("../img/bg-top--desktop.jpg");
+
+    .page-heading__title {
+      width: 67%;
+      padding-top: 120px;
+      padding-bottom: 320px;
+    }
+  }
+
+  .page-heading--main::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 25px;
+    margin-top: -20px;
+
+    background: url("../img/zigzag-fill.svg") top repeat-x;
+    background-size: auto 25px;
+  }
+
+  .page-heading__title {
+    font-size: $font-size-6;
+  }
+
+  .page-heading__link {
+    width: 50%;
+    padding-bottom: 50px;
+  }
+
+  .page-heading__link--interior {
+    background-position: 87% 25px;
+  }
+
+  .page-heading__link--toys {
+    background-position: 90% 25px;
+  }
+}

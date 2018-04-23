@@ -22,7 +22,44 @@
   border-bottom: 1px solid $border-color;
 }
 
+.main-nav__item:hover {
+  .main-nav__link {
+    color: $text-color-3;
+  }
+}
+
+.main-nav__item:active {
+  .main-nav__link {
+    color: $text-color-4;
+  }
+}
+
 .main-nav--nojs {
   position: static;
   display: block !important;
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav {
+    position: static;
+    width: auto;
+    padding: 0;
+
+    font-size: $font-size-1;
+    line-height: 15px;
+  }
+
+  .main-nav__list {
+    display: flex;
+  }
+
+  .main-nav__item,
+  .main-nav__item:last-child {
+    border: none;
+  }
+
+  .main-nav__item {
+    width: 120px;
+    padding: 0;
+  }
 }

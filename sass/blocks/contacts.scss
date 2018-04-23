@@ -48,3 +48,62 @@
 .contacts__btn {
   margin: 40px auto;
 }
+
+@media (min-width: $tablet-width) {
+  .contacts {
+    margin-top: 60px;
+    background: url("../img/zigzag-line.svg") top repeat-x;
+    background-size: auto 15px;
+  }
+
+  .contacts__title {
+    position: relative;
+    margin: 50px 0;
+    font-size: $font-size-6;
+  }
+
+  .contacts__title::after {
+    content: "";
+    position: absolute;
+    right: -45px;
+
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 0;
+
+    border: 45px solid $text-color-4;
+    border-top: 20px solid transparent;
+    border-right-color: transparent;
+    border-bottom: 20px solid transparent;
+  }
+
+  .contacts__title::before {
+    content: "";
+    position: absolute;
+    right: 48px;
+    top: -5px;
+
+    display: inline-block;
+    vertical-align: middle;
+    width: 3px;
+    height: 80px;
+
+    background: $text-color-3;
+  }
+
+  .contacts__table {
+    tbody {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .contacts__row {
+    width: 300px;
+  }
+
+  .contacts__map-wrapper {
+    margin-top: 40px;
+  }
+}

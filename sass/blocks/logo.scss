@@ -7,3 +7,14 @@
 .logo--bottom {
   display: none;
 }
+
+@media (min-width: $tablet-width) {
+  .logo {
+    width: 120px;
+    margin: 0
+  }
+
+  .logo--bottom {
+    display: block;
+  }
+}
