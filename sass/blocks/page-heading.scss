@@ -100,3 +100,17 @@
     background-position: 90% 25px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .page-heading--main {
+    justify-content: center;
+
+    .page-heading__title {
+      font-size: $font-size-7;
+    }
+  }
+
+  .page-heading__link {
+    max-width: 525px;
+  }
+}

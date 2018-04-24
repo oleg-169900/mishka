@@ -12,3 +12,9 @@
     max-width: 990px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .wrapper {
+    max-width: 1500px;
+  }
+}

@@ -18,3 +18,9 @@
     display: block;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .logo {
+    width: 160px;
+  }
+}

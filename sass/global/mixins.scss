@@ -7,3 +7,8 @@
   padding-left: 7%;
   padding-right: 7%;
 }
+
+@mixin padding-desktop {
+  padding-left: 8%;
+  padding-right: 8%;  
+}

@@ -82,6 +82,12 @@
     background-size: auto 15px;
   }
 
+  .goods__header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
   .goods__title {
     margin: 0;
     margin-bottom: 50px;
@@ -109,6 +115,36 @@
 
   .goods__btn {
     width: 40%;
+    margin: 0;
+    margin-top: -55px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .goods {
+    @include padding-desktop;
+    padding-bottom: 80px;
+  }
+
+  .goods__title {
+    font-size: $font-size-7;
+  }
+
+  .goods__description {
+    width: 30%;
+  }
+
+  .goods__img {
+    width: 525px;
+    margin: 0;
+  }
+
+  .goods__text--bold {
+    margin-top: 325px;
+  }
+
+  .goods__btn {
+    width: 30%;
     margin: 0;
     margin-top: -55px;
   }

@@ -1,7 +1,6 @@
 .about {
+  padding: 30px 0;
   @include padding;
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 .about__title {
@@ -52,6 +51,10 @@
 }
 
 @media (min-width: $tablet-width) {
+  .about {
+    @include padding-tablet;
+  }
+
   .about__title {
     margin-bottom: 30px;
     font-size: $font-size-6;
@@ -66,5 +69,22 @@
 
   .about__item {
     width: 40%;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .about {
+    width: 700px;
+    margin: 0 auto;
+    padding: 60px 0;
+    @include padding-desktop;
+  }
+
+  .about__title {
+    font-size: $font-size-7;
+  }
+
+  .about__item {
+    margin-left: 0;
   }
 }

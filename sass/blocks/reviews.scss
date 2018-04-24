@@ -52,12 +52,12 @@
     position: relative;
     padding-top: 50px;
     padding-bottom: 70px;
-
     background: url("../img/review.jpg") no-repeat top left;
   }
 
   .reviews__title {
     margin-bottom: 30px;
+    @include padding-tablet;
     font-size: $font-size-6;
   }
 
@@ -77,7 +77,25 @@
     position: absolute;
     top: 33px;
     right: 7%;
-
     width: 170px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .reviews__title {
+    font-size: $font-size-7;
+  }
+
+  .reviews__inner--nojs {
+    overflow: visible;
+
+    .reviews__list {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .reviews__inner--nojs + .reviews__controls {
+    display: none;
   }
 }

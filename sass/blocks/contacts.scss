@@ -105,5 +105,13 @@
 
   .contacts__map-wrapper {
     margin-top: 40px;
+    background: url("../img/pin.png") no-repeat 50% 160px,
+                 url("../img/map.jpg") no-repeat center;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contacts__title {
+    font-size: $font-size-7;
   }
 }
