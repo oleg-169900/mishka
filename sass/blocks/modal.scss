@@ -13,6 +13,10 @@
   border-bottom: 1px solid $border-color;
 }
 
+.modal--page {
+  top: 0;
+}
+
 .modal__title {
   width: 50%;
   margin: 0 auto;
@@ -49,4 +53,12 @@
 
 .modal__input:checked + .modal__text {
   border-color: $text-color-4;
+}
+
+@media (min-width: $tablet-width) {
+  .modal {
+    width: 320px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
