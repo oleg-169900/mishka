@@ -48,3 +48,37 @@
 
   border-top: 1px solid $border-color;
 }
+
+@media (min-width: $tablet-width) {
+  .catalogue-item {
+    display: flex;
+    width: 100%;
+    margin-top: 55px;
+  }
+
+  .catalogue-item__image {
+    img {
+      width: 333px;
+      height: 333px;
+    }
+  }
+
+  .catalogue-item__description {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+    width: 100%;
+    padding: 20px;
+  }
+
+  .catalogue-item__title,
+  .catalogue-item__text {
+    width: 100%;
+  }
+
+  .catalogue-item__price {
+    width: 100%;
+    margin-top: 170px;
+  }
+}

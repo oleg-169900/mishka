@@ -1,0 +1,7 @@
+@media (min-width: $tablet-width) {
+  .catalogue {
+    display: flex;
+    flex-wrap: wrap;
+    @include padding-tablet;
+  }
+}

@@ -76,3 +76,40 @@
   font-size: $font-size-1;
   line-height: 24px;
 }
+
+@media (min-width: $tablet-width) {
+  .video-field {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 55px;
+    @include padding-tablet;
+  }
+
+  .video-field__title {
+    width: 100%;
+    margin-top: -5px;
+    text-indent: 3%;
+    background: url("../img/video-icon.png") no-repeat 7% center;
+  }
+
+  .video-field__description {
+    width: 100%;
+  }
+
+  .video-field__text {
+    @include padding-tablet;
+  }
+
+  .video-field__video {
+    order: -1;
+  }
+
+  .video-field__btn {
+    width: 80%;
+  }
+
+  .video-field__btn--play {
+    width: 100px;
+    margin-top: 190px;
+  }
+}
