@@ -79,6 +79,30 @@
 
   .catalogue-item__price {
     width: 100%;
-    margin-top: 170px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .catalogue-item {
+    flex-direction: column;
+    width: 312px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .catalogue-item__image {
+    img {
+      width: 312px;
+      height: 465px;
+    }
+  }
+
+  .catalogue-item__description {
+    width: auto;
+  }
+
+  .catalogue-item__price {
+    margin-top: 45px;
+    border: none;
   }
 }

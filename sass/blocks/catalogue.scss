@@ -5,3 +5,10 @@
     @include padding-tablet;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .catalogue {
+    justify-content: space-between;
+    @include padding-desktop;
+  }
+}

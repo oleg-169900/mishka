@@ -5,16 +5,14 @@
 }
 
 .video-field__title {
-  padding: 25px 40px;
+  padding: 25px;
+  padding-bottom: 10px;
   padding-left: 80px;
 
   font-size: $font-size-2;
   line-height: 24px;
 
-  background: url("../img/video-icon.png") no-repeat 10% center;
-
-  border: 1px solid $border-color;
-  border-bottom: none;
+  background: url("../img/video-icon.png") no-repeat 10% 55%;
 }
 
 .video-field__btn {
@@ -86,9 +84,12 @@
   }
 
   .video-field__title {
-    width: 100%;
-    margin-top: -5px;
+    width: auto;
+    margin-top: 5px;
+    padding-bottom: 20px;
+
     text-indent: 3%;
+
     background: url("../img/video-icon.png") no-repeat 7% center;
   }
 
@@ -111,5 +112,56 @@
   .video-field__btn--play {
     width: 100px;
     margin-top: 190px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .video-field {
+    flex-wrap: nowrap;
+    align-items: stretch;
+    margin-bottom: 100px;
+    @include padding-desktop;
+  }
+
+  .video-field__video {
+    width: 65%;
+  }
+
+  .video-field__frame {
+    width: 100%;
+    height: 100%;
+  }
+
+  .video-field__description {
+    width: 35%;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 40px;
+
+    border: 1px solid $border-color;
+  }
+
+  .video-field__text,
+  .video-field__title {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0;
+    text-indent: 0;
+  }
+
+  .video-field__title {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: $font-size-3;
+    background-position: top left;
+  }
+
+  .video-field__btn {
+    width: 60%;
+  }
+
+  .video-field__btn--play {
+    width: 100px;
+    margin-top: 150px;
   }
 }
