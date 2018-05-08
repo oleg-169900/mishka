@@ -85,3 +85,16 @@
     margin: 0;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .form__text {
+    margin-top: 70px;
+    @include padding-desktop;
+    padding-left: 29%;
+  }
+
+  .form__inner {
+    padding: 50px 0;
+    @include padding-desktop;
+  }
+}
