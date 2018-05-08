@@ -32,9 +32,39 @@
 }
 
 .field-text__input--tel {
-  background: url("../img/phone-icon.png") no-repeat right center;
+  background: url("../img/phone-icon.png") no-repeat 95% center;
 }
 
 .field-text__input--email {
-  background: url("../img/email-icon.png") no-repeat right center;
+  background: url("../img/email-icon.png") no-repeat 95% center;
+}
+
+@media (min-width: $tablet-width) {
+  .field-text {
+    flex-wrap: wrap;
+  }
+
+  .field-text__items {
+    width: 75%;
+    margin: 0;
+  }
+
+  .field-text__item {
+    display: flex;
+    align-items: center;
+  }
+
+  .field-text__text {
+    margin-right: 25px;
+  }
+
+  .field-text__item--contact {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .field-text__input {
+    padding-left: 20px;
+  }
+
 }

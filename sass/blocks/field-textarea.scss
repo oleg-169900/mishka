@@ -14,3 +14,9 @@
 
   border: 2px solid $text-color-3;
 }
+
+@media (min-width: $tablet-width) {
+  .field-textarea__text {
+    margin-top: 10px;
+  }
+}

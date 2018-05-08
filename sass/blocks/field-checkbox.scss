@@ -40,3 +40,17 @@
 .field-checkbox__input:checked + .field-checkbox__description::before {
   background: url("../img/icon-tick.svg") no-repeat center;
 }
+
+@media (min-width: $tablet-width) {
+  .field-checkbox__items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin-top: 0;
+  }
+
+  .field-checkbox__item {
+    width: 50%;
+    margin: 10px 0;;
+  }
+}

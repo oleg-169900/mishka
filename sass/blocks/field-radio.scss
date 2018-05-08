@@ -40,3 +40,18 @@
 .field-radio__input:checked + .field-radio__description::before {
   background: radial-gradient(at center, $text-color-4 30%, #ffffff 30%);
 }
+
+@media (min-width: $tablet-width) {
+  .field-radio {
+
+  }
+
+  .field-radio__items {
+    width: 75%;
+    margin-top: 0;
+  }
+
+  .field-radio__text {
+    width: auto;
+  }
+}
